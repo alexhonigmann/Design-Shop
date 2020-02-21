@@ -22,7 +22,6 @@ nav{
 .navig li{
     display: inline;
     margin: 0 3vw;
-    
 }
 .navig li a{
     text-decoration: none;
@@ -32,20 +31,6 @@ nav{
     color: rgba(0, 0, 0, 0.728);
 }
 
-.hamburger-menu{
-    margin-top: -80px;
-    float: right;
-    padding-right: 3vh;
-    overflow: hidden;
-    opacity: 0;
-}
-.hamburger-menu div{
-    background-color: black;
-    width: 18px;
-    height: 3px;
-    margin: 2px;
-    overflow: hidden;
-}
 
 /* main *************************/
 
@@ -164,10 +149,19 @@ main p{
         font-size: 3.4vw;
     }
     .navig ul{
-        opacity: 0;
+        display: none;
     }
     .hamburger-menu{
-        opacity: 1;
+        margin-top: 50px;
+        float: right;
+        padding-right: 3vh;
     }
+    .hamburger-menu div{
+        background-color: black;
+        width: 18px;
+        height: 3px;
+        margin: 2px;
+    }
+    
 }
 
